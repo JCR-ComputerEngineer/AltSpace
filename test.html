@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><body>
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+ <script src="https://sdk.altvr.com/libs/altspace.js/0.28.1/altspace.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/aframe-altspace-component/v1.3.2/dist/aframe-altspace-component.min.js"></script>
+ 
+<!-- set up the scene -->
+<a-scene altspace='vertical-align: bottom; fullspace:true; position=0 0 0' >
+ 
+    <!-- preload all our textures -->
+    <a-assets>
+        <img id='moon' src='resources/moon2.jpg'/>
+        <img id='stars' src='resources/space-2.jpg'/>
+        <img id='red' src='resources/redRuberTexture.jpg'/>
+       
+        <!-- Adding the chair model -->
+        <a-asset-item id="chair-obj" src='models/chair.obj'></a-asset-item>
+        <a-asset-item id="chair-mtl" src='models/chair.mtl'></a-asset-item>
+       
+    </a-assets>
+
+    <a-entity obj-model="obj: #chair-obj; mtl: #chair-mtl;" position='1 -.5 2'></a-entity>
+
+
+ 
+        <!-- add the moon to the scene -->
+        <a-sphere position='0 -10 0' radius='1' material='src: #moon;'>
+        <!-- add an animation to make it rotate -->
+        <a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
+        </a-sphere>
+
+    <a-entity n-spawner='res: interactables/basketball' position='0 1 2'></a-entity>
+    
+ 
+    <!-- add the backdrop of stars -->
+    <a-sky src='#stars' radius='2000' ></a-sky>
+ 
+    <!-- add a view camera (2d only) -->
+    <a-entity position='0 0 0'>
+        <a-camera></a-camera>
+    </a-entity>
+ 
+</a-scene>
+ 
+</body></html>
