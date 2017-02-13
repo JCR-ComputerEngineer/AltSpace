@@ -17,9 +17,14 @@
         <a-asset-item id="chair-obj" src='models/chair.obj'></a-asset-item>
         <a-asset-item id="chair-mtl" src='models/chair.mtl'></a-asset-item>
        
+        <!-- The following object is to check if color shading is supported in A-Frame-->
+        <a-asset-item id="shadeTest-obj" src='models/shadeTest.obj'></a-asset-item>
+        <a-asset-item id="shadeTest-mtl" src='models/shadeTest.mtl'></a-asset-item>
     </a-assets>
 
-    <a-entity obj-model="obj: #chair-obj; mtl: #chair-mtl;" position='1 -.5 2'></a-entity>
+    <a-entity obj-model="obj: #chair-obj; mtl: #chair-mtl;" position='1 0 2'></a-entity>
+    <!-- Testing this object for shades -->
+    <a-entity obj-model="obj: #shadeTest-obj; mtl: #shadeTest-mtl;" position='1.5 0 1'></a-entity>
 
 
  
