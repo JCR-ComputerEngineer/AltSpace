@@ -20,7 +20,12 @@
         <!-- Testing variety of gltf files -->
         <a-asset-item id="stool2ndO" src='models/Stool_2ndO.gltf'></a-asset-item>
         <a-asset-item id="stool2ndOA" src='models/Stool_2ndOA.gltf'></a-asset-item>
-        <a-asset-item id="stoolA" src='models/Stool_A.gltf'>
+        <a-asset-item id="stoolA" src='models/Stool_A.gltf'></a-asset-item>
+        <!-- Testing the .glb files -->
+        <a-asset-item id="stool" src='models/Stool.glb'></a-asset-item>
+        <a-asset-item id="stool_glb_OO" src='models/Stool_OO.glb'></a-asset-item>
+        <a-asset-item id="stool_glb_OOA" src='models/Stool_OOA.glb'></a-asset-item>
+
     </a-assets>
 
     <!-- Non-interactable Entities -->
@@ -30,6 +35,10 @@
     <a-gltf-model src="#stool2nO" position='0.25 1.25 2'></a-gltf-model>
     <a-gltf-model src="#stool2ndOA;" position='1 3 3'></a-gltf-model>
     <a-gltf-model src="models/Stool_A.gltf"></a-gltf-model>
+    <!-- .glb in testing -->
+    <a-gltf-model src="#stool;" position='1 3 3'></a-gltf-model>
+    <a-gltf-model src="#stool_glb_OO;" position='1 3 3'></a-gltf-model>
+    <a-gltf-model src="#stool_glb_OOA;" position='1 3 3'></a-gltf-model>
 
         <!-- Adding a sphere to create a moon and wrapping it with the #moon image -->
         <a-sphere position='0 -10 0' radius='1' material='src: #moon;'>
