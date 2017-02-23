@@ -66,7 +66,7 @@ Ks 0.330000 0.330000 0.330000
 map_Kd stool/Metal_Corrogated_Shiny.jpg
 
 
-newmtl [Metal_Corrugated_Shiny]1
+newmtl Metal_Corrugated_Shiny_1
 
 Ka 0.000000 0.000000 0.000000
 
@@ -74,7 +74,7 @@ Kd 0.568627 0.568627 0.568627
 
 Ks 0.330000 0.330000 0.330000
 
-map_Kd stool/Metal_Corrogated_Shiny.jpg
+map_Kd stool/Metal_Corrogated_Shiny_1.jpg
 
 
 newmtl default_material
