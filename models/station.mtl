@@ -1,6 +1,10 @@
 #
 ## Alias MTL Material File
 # Converted from SKP by LIPID Lightsolve
+
+
+
+
 newmtl PurpleHexGrid
 
 Ka 0.000000 0.000000 0.000000
@@ -9,7 +13,7 @@ Kd 0.330000 0.330000 0.330000
 
 Ks 0.330000 0.330000 0.330000
 
-map_Kd station/PurpleHexGid.png
+map_Kd Station/PurpleHexGid.png
 
 
 newmtl GoldenFlower
@@ -20,7 +24,7 @@ Kd 0.330000 0.330000 0.330000
 
 Ks 0.330000 0.330000 0.330000
 
-map_Kd station/GoldenFlower.jpg
+map_Kd Station/GoldenFlower.jpg
 
 
 newmtl Brick_Rough_Dark
@@ -31,7 +35,7 @@ Kd 0.330000 0.330000 0.330000
 
 Ks 0.330000 0.330000 0.330000
 
-map_Kd station/Brick_Rough_Dark.jpg
+map_Kd Station/Brick_Rough_Dark.jpg
 
 
 newmtl blueshade
@@ -42,7 +46,7 @@ Kd 0.330000 0.330000 0.330000
 
 Ks 0.330000 0.330000 0.330000
 
-map_Kd station/blueshade.jpg
+map_Kd Station/blueshade.jpg
 
 
 newmtl Matrix
@@ -53,7 +57,7 @@ Kd 0.330000 0.330000 0.330000
 
 Ks 0.330000 0.330000 0.330000
 
-map_Kd station/matrix.jpg
+map_Kd Station/matrix.jpg
 
 
 newmtl default_material
