@@ -4,7 +4,7 @@
 
 mtllib wavefront2.mtl
 
-g Mesh1 Model
+g Mesh1 Group1 Model
 
 usemtl FrontColor
 v 1.12 0 -0.99
