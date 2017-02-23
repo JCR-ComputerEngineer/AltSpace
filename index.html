@@ -13,17 +13,17 @@
         <img id='stars' src='resources/space-2.jpg'/>
        
         <!--  Models .objs and .mtls -->
-        <a-asset-item id="chair-obj" src='models/Cube.obj'></a-asset-item>
-        <a-asset-item id="chair-mtl" src='models/Cube.mtl'></a-asset-item>
-        <a-asset-item id="base-obj" src='models/SS.obj'></a-asset-item>
-        <a-asset-item id="base-mtl" src='models/SS.mtl'></a-asset-item>
+        <a-asset-item id="chair-obj" src='models/Wavefront.obj'></a-asset-item>
+        <a-asset-item id="chair-mtl" src='models/Wavefront.mtl'></a-asset-item>
+        <a-asset-item id="collada" src="collada.dae"</a-asset-item>
         
 
     </a-assets>
 
     <!-- Non-interactable Entities -->
     <a-entity obj-model="obj: #chair-obj; mtl: #chair-mtl;" position='3 0 3'></a-entity>
-    <a-entity obj-model="obj: #base-obj; mtl: #base-mtl;" position='0 0 0'></a-entity>
+    <!-- <a-entity obj-model="obj: #base-obj; mtl: #base-mtl;" position='0 0 0'></a-entity> -->
+    <a-collada-model src="#collada"></a-collada-model>
     
 
         <!-- Adding a sphere to create a moon and wrapping it with the #moon image -->
