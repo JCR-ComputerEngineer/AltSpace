@@ -1,0 +1,47 @@
+#
+## Alias MTL Material File
+# Converted from SKP by LIPID Lightsolve
+
+
+
+newmtl *1
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.330000 0.330000 0.330000
+
+Ks 0.330000 0.330000 0.330000
+
+map_Kd wavefront2/PurpleHexGrid.png
+
+
+newmtl *2
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.330000 0.330000 0.330000
+
+Ks 0.330000 0.330000 0.330000
+
+map_Kd wavefront2/blueshade.jpg
+
+
+newmtl *3
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.330000 0.330000 0.330000
+
+Ks 0.330000 0.330000 0.330000
+
+map_Kd wavefront2/PurpleHexGrid.png
+
+
+newmtl default_material
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.330000 0.330000 0.330000
+
+Ks 0.330000 0.330000 0.330000
+
